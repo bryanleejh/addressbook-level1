@@ -211,12 +211,16 @@ public class AddressBook {
         processProgramArgs(args);
         loadDataFromStorage();
         while (true) {
-            String userCommand = getUserInput();
-            echoUserCommand(userCommand);
-            String feedback = executeCommand(userCommand);
-            showResultToUser(feedback);
+            returnUserOutput();
         }
     }
+
+	private static void returnUserOutput() {
+		String userCommand = getUserInput();
+		echoUserCommand(userCommand);
+		String feedback = executeCommand(userCommand);
+		showResultToUser(feedback);
+	}
 
     /*
      * NOTE : =============================================================
