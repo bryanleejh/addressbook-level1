@@ -40,6 +40,12 @@
   list
   add Esther Potato p/555555 e/esther@notreal.potato
   list
+  
+##########################################################
+# test sort persons command
+##########################################################
+
+  sort
 
 ##########################################################
 # test find persons command

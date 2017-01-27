@@ -70,7 +70,14 @@
 || 	Example: clear
 || 
 || exit: Exits the program.	Example: exit
-|| help: Shows program usage instructions.	Example: help
+|| 		Example: exit
+|| 
+|| sort: Sorts data by names alphabetically.
+|| 		Example: sort
+|| 
+|| help: Shows program usage instructions.
+|| 		Example: help
+|| 
 || ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
@@ -163,6 +170,15 @@
 || New person added: Esther Potato, Phone: 555555, Email: esther@notreal.potato
 || ===================================================
 || Enter command: || [Command entered:  list]
+|| 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
+|| 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+|| 	3. Charlie Dickson  Phone Number: 333333  Email: charlie.d@nus.edu.sg
+|| 	4. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	5. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| 
+|| 5 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
 || 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
 || 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
 || 	3. Charlie Dickson  Phone Number: 333333  Email: charlie.d@nus.edu.sg
